@@ -1,0 +1,8 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    <meta http-equiv="refresh" content="3;url={% url 'blog-home' %}" />
+    <div class="content-section">
+        <h3>Logged out successfully!</h3>
+        <p>Redirecting...</p>
+    </div>
+{% endblock content %}
